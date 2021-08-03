@@ -26,8 +26,8 @@ const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
   });
-  readline.question("enter the number : ",num => {      // lambda function is use
-    console.log(`"the number is:"  ${num}`)             // Num is stored
+  readline.question("enter the number : ",num => {     
+    console.log(`"the number is:"  ${num}`)             
     number = parseInt(num) 
 convTemp(number)
 function convTemp(number) 
@@ -35,15 +35,15 @@ function convTemp(number)
     switch (number) 
     {
         case 1:
-              readline.question("enter the number : ",num => {      // lambda function is use
-                console.log(`"the number is:"  ${num}`)             // Num is stored
+              readline.question("enter the number : ",num => {      
+                console.log(`"the number is:"  ${num}`)             
                 degC = parseInt(num) 
             degFarhenite(degC)
               });
               break;
         case 2:
-              readline.question("enter the number : ",num => {      // lambda function is use
-                console.log(`"the number is:"  ${num}`)             // Num is stored
+              readline.question("enter the number : ",num => {      
+                console.log(`"the number is:"  ${num}`)             
                 degF = parseInt(num) 
             degCelsius(degF)
             
